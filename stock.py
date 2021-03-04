@@ -242,7 +242,7 @@ def calc_std(new_window,df_converted,ax1,fig_graph,date_frame,symbol_to_name):
     ax2.set_ylabel('Price in {}'.format(wanted_currency),color='b')
     ax2.plot(df_converted, color='b')
 
-#updates text according to selected options  
+#update text according to selected options  
   
 def update_text():
     global current_stock
